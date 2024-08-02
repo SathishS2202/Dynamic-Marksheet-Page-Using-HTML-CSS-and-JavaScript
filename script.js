@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function calculateTotals() {
         let grandTotal = 0;
-        let subjects = 6; 
+        let subjects = 7; 
         document.querySelectorAll('.marks-table tbody tr').forEach(row => {
             const theoryMarks = parseFloat(row.querySelector('.theory').value) || 0;
             const practicalMarks = parseFloat(row.querySelector('.practical').value) || 0;
